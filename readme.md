@@ -24,7 +24,7 @@ random-trading-aster.exe -symbol ETHUSDT -side BUY -size 100 -step 0.0004 -secon
 - api_key: "API key (or set env API_KEY)"
 - api_sec: "API secret (or set env API_SEC)"
 
-## Social media:   
+## Social Media  
 
 https://x.com/hyperswarmx
 
