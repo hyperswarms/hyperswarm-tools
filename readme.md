@@ -25,7 +25,14 @@ api_key: "API key (or set env API_KEY)"
 api_sec: "API secret (or set env API_SEC)"
 
 Social media:
-Official push x.com/hyperswarmx
+Official push 
+
+x.com/hyperswarmx
+
 t.me/hyperswarm
+
 https://discord.gg/EUqd4yvTYJ
-Github：GitHub - hyperswarms/hyperswarm-tools
+
+Github：
+
+GitHub - hyperswarms/hyperswarm-tools
