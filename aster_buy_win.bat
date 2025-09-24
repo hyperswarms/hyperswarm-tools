@@ -1,0 +1,1 @@
+random-trading-aster.exe -symbol ASTERUSDT -side BUY -size 100 -step 0.0004 -seconds 30 -price_min 1 -price_max 10 -precision_base 2 -precision_quote 4 -api_key "to_replace" -api_sec "to_replace"
