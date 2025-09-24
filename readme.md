@@ -26,10 +26,10 @@ api_sec: "API secret (or set env API_SEC)"
 
 ## Social media:   
 
-x.com/hyperswarmx
+https://x.com/hyperswarmx
 
-t.me/hyperswarm
+https://t.me/hyperswarm
 
 https://discord.gg/EUqd4yvTYJ
 
-GitHub - hyperswarms/hyperswarm-tools
+GitHub - https://github.com/hyperswarms/hyperswarm-tools
