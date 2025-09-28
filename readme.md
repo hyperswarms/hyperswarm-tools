@@ -5,31 +5,34 @@ choose executable_bin for your operation system
 2. choose -size, 200 indicates 200USDT
 3. choose -side, trend is bullish use BUY, trend is bearish use SELL
 
-random-trading-aster.exe -symbol BTCUSDT -side BUY -size 200 -step 0.0004 -seconds 30 -price_min 100000 -price_max 120000 -precision_base 3 -precision_quote 1 -api_key "to_replace" -api_sec "to_replace"
+random-trading-aster.exe -symbol BTCUSDT -side BUY -size 200 -step 0.0008 -seconds 600 -price_min 100000 -price_max 120000 -precision_base 3 -precision_quote 1 -api_key "to_replace" -api_sec "to_replace" -reset 5
 
-random-trading-aster.exe -symbol ASTERUSDT -side BUY -size 100 -step 0.0004 -seconds 30 -price_min 1 -price_max 10 -precision_base 2 -precision_quote 4 -api_key "to_replace" -api_sec "to_replace"
+random-trading-aster.exe -symbol ASTERUSDT -side BUY -size 100 -step 0.0012 -seconds 30 -price_min 1 -price_max 10 -precision_base 2 -precision_quote 4 -api_key "to_replace" -api_sec "to_replace" -reset 7
 
-random-trading-aster.exe -symbol ETHUSDT -side BUY -size 100 -step 0.0004 -seconds 30 -price_min 3000 -price_max 5000 -precision_base 3 -precision_quote 1 -api_key "to_replace" -api_sec "to_replace"
+random-trading-aster.exe -symbol ETHUSDT -side BUY -size 100 -step 0.001 -seconds 300 -price_min 3000 -price_max 5000 -precision_base 3 -precision_quote 1 -api_key "to_replace" -api_sec "to_replace" -reset 5
 
 ## More paramters desc
-- symbol:  "trading symbol, e.g. ASTERUSDT"
-- side:    "first market side: BUY or SELL"
-- size:    "amount in quote asset per market order (e.g. 123.5)"
-- step:    "price step ratio for limit order (e.g. 0.002)"
-- seconds: "interval seconds between attempts (min 5)"
-- price_min:  "min open price"
-- price_max:  "max open price"
-- precision_base:  "asset precision (quantity decimals)"
-- precision_quote: "price precision (price decimals)"
-- api_key: "API key (or set env API_KEY)"
-- api_sec: "API secret (or set env API_SEC)"
+symbol:  "trading symbol, e.g. ASTERUSDT"
 
-## Social Media  
+side:    "first market side: BUY or SELL"
 
-https://x.com/hyperswarmx
+size:    "amount in quote asset per market order (e.g. 123.5)"
 
-https://t.me/hyperswarm
+step:    "price step ratio for limit order (e.g. 0.002)"
 
-https://discord.gg/EUqd4yvTYJ
+seconds: "interval seconds between attempts (min 5)"
 
-https://github.com/hyperswarms/hyperswarm-tools
+price_min:  "min open price"
+
+price_max:  "max open price"
+
+precision_base:  "asset precision (quantity decimals)"
+
+precision_quote: "price precision (price decimals)"
+
+api_key: "API key (or set env API_KEY)"
+
+api_sec: "API secret (or set env API_SEC)"
+
+reset:  default 10, "maintenance cycle: every N successful orders cancel all and close positions (0=disabled)"
+
